@@ -26,7 +26,7 @@
     [self.view addSubview:q_scrollView];
 
     
-    GAScrollViewConfiguration* a_config = [GAScrollViewConfiguration instanceBannerConfigurationPlaceholderImage:nil orColor:@[[UIColor blackColor],[UIColor whiteColor]] needTitle:YES titleHeight:40 titleAlignment:NSTextAlignmentLeft titleFrame:CGRectZero andTitleFontName:nil andTitleFontSize:17 andTitleColor:[UIColor blackColor] needPage:YES whenOnlyHidden:YES pageAlignment:UIControlContentHorizontalAlignmentLeft pageFrame:CGRectZero andPageDefaultColor:[UIColor whiteColor] andPageSelectedColor:[UIColor orangeColor] needDiskCache:YES style:GAScrollViewrRunStyleAuto transformStyle:GAScrollViewTransformStyleDefault cacheScheme:GACacheImageScheme_AFNetworking timeInterval:5.0 openBounces:YES];
+    GAScrollViewConfiguration* a_config = [GAScrollViewConfiguration instanceBannerConfigurationPlaceholderImage:nil orColor:@[[UIColor blackColor],[UIColor whiteColor]] needTitle:YES titleHeight:40 titleAlignment:NSTextAlignmentLeft titleFrame:CGRectZero andTitleFontName:nil andTitleFontSize:17 andTitleColor:[UIColor blackColor] needPage:YES whenOnlyHidden:YES pageAlignment:UIControlContentHorizontalAlignmentLeft pageFrame:CGRectZero andPageDefaultColor:[UIColor whiteColor] andPageSelectedColor:[UIColor orangeColor] needDiskCache:YES style:GAScrollViewrRunStyleAuto transformStyle:GAScrollViewTransformStyleDefault cacheScheme:GACacheImageScheme_Auto timeInterval:5.0 openBounces:YES];
     GAScrollView* a_scrollView = [[GAScrollView alloc] initWithFrame:(CGRect){{0,self.view.bounds.size.height - 400},{self.view.bounds.size.width,400}}];
     a_scrollView.config = a_config;
     a_scrollView.titles = self.titles;

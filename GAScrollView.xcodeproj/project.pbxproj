@@ -18,9 +18,6 @@
 		040346E51E7568CC004C2528 /* GAScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040346E41E7568CC004C2528 /* GAScrollView.m */; };
 		040346E81E7568F1004C2528 /* GAScrollViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 040346E71E7568F1004C2528 /* GAScrollViewItem.m */; };
 		040346EB1E756907004C2528 /* GAScrollViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 040346EA1E756907004C2528 /* GAScrollViewStyle.m */; };
-		CA3AEA21CCBBD08B062DBF6E /* libPods-GAScrollViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CAFF18D4C195BA969BD451 /* libPods-GAScrollViewUITests.a */; };
-		D43325DD0A91AEE7DC91C72C /* libPods-GAScrollViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADAA69BC61DD6E0B606121A /* libPods-GAScrollViewTests.a */; };
-		D57DE9D5AB7974D2CF80745D /* libPods-GAScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 841C0D890D1DB5A116DCDBC3 /* libPods-GAScrollView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,15 +60,6 @@
 		040346E71E7568F1004C2528 /* GAScrollViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAScrollViewItem.m; sourceTree = "<group>"; };
 		040346E91E756907004C2528 /* GAScrollViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAScrollViewStyle.h; sourceTree = "<group>"; };
 		040346EA1E756907004C2528 /* GAScrollViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAScrollViewStyle.m; sourceTree = "<group>"; };
-		30E5A803E139A092720B4A3C /* Pods-GAScrollViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAScrollViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GAScrollViewTests/Pods-GAScrollViewTests.release.xcconfig"; sourceTree = "<group>"; };
-		3ADAA69BC61DD6E0B606121A /* libPods-GAScrollViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GAScrollViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		841C0D890D1DB5A116DCDBC3 /* libPods-GAScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GAScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		90CAFF18D4C195BA969BD451 /* libPods-GAScrollViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GAScrollViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB624BF7CBA700499D63F620 /* Pods-GAScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-GAScrollView/Pods-GAScrollView.release.xcconfig"; sourceTree = "<group>"; };
-		B574DF58C784A47EE1896C64 /* Pods-GAScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GAScrollView/Pods-GAScrollView.debug.xcconfig"; sourceTree = "<group>"; };
-		EA2C6D99AE5C5FDABE02D11E /* Pods-GAScrollViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAScrollViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GAScrollViewUITests/Pods-GAScrollViewUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F181FAFB8F129E1F2AE245B9 /* Pods-GAScrollViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAScrollViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GAScrollViewUITests/Pods-GAScrollViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		FBC3FE2711448EB1B37AA82C /* Pods-GAScrollViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAScrollViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GAScrollViewTests/Pods-GAScrollViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D57DE9D5AB7974D2CF80745D /* libPods-GAScrollView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +74,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D43325DD0A91AEE7DC91C72C /* libPods-GAScrollViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA3AEA21CCBBD08B062DBF6E /* libPods-GAScrollViewUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +94,6 @@
 				040346C81E756636004C2528 /* GAScrollViewTests */,
 				040346D31E756636004C2528 /* GAScrollViewUITests */,
 				040346AD1E756636004C2528 /* Products */,
-				7249FBAEC69D1E4B12D799A3 /* Pods */,
 				E8AF7628FBF928F8896BF739 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -131,7 +115,7 @@
 				040346B31E756636004C2528 /* AppDelegate.m */,
 				040346B51E756636004C2528 /* ViewController.h */,
 				040346B61E756636004C2528 /* ViewController.m */,
-				040346E21E7568B4004C2528 /* GAScrollView_Kit */,
+				040346E21E7568B4004C2528 /* GAScrollView */,
 				040346B81E756636004C2528 /* Main.storyboard */,
 				040346BB1E756636004C2528 /* Assets.xcassets */,
 				040346BD1E756636004C2528 /* LaunchScreen.storyboard */,
@@ -167,7 +151,7 @@
 			path = GAScrollViewUITests;
 			sourceTree = "<group>";
 		};
-		040346E21E7568B4004C2528 /* GAScrollView_Kit */ = {
+		040346E21E7568B4004C2528 /* GAScrollView */ = {
 			isa = PBXGroup;
 			children = (
 				040346E31E7568CC004C2528 /* GAScrollView.h */,
@@ -177,28 +161,13 @@
 				040346E91E756907004C2528 /* GAScrollViewStyle.h */,
 				040346EA1E756907004C2528 /* GAScrollViewStyle.m */,
 			);
+			name = GAScrollView;
 			path = GAScrollView_Kit;
-			sourceTree = "<group>";
-		};
-		7249FBAEC69D1E4B12D799A3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B574DF58C784A47EE1896C64 /* Pods-GAScrollView.debug.xcconfig */,
-				AB624BF7CBA700499D63F620 /* Pods-GAScrollView.release.xcconfig */,
-				FBC3FE2711448EB1B37AA82C /* Pods-GAScrollViewTests.debug.xcconfig */,
-				30E5A803E139A092720B4A3C /* Pods-GAScrollViewTests.release.xcconfig */,
-				F181FAFB8F129E1F2AE245B9 /* Pods-GAScrollViewUITests.debug.xcconfig */,
-				EA2C6D99AE5C5FDABE02D11E /* Pods-GAScrollViewUITests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		E8AF7628FBF928F8896BF739 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				841C0D890D1DB5A116DCDBC3 /* libPods-GAScrollView.a */,
-				3ADAA69BC61DD6E0B606121A /* libPods-GAScrollViewTests.a */,
-				90CAFF18D4C195BA969BD451 /* libPods-GAScrollViewUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -210,12 +179,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 040346D91E756636004C2528 /* Build configuration list for PBXNativeTarget "GAScrollView" */;
 			buildPhases = (
-				A7D780E73F3D4D72D9DD8747 /* [CP] Check Pods Manifest.lock */,
 				040346A81E756636004C2528 /* Sources */,
 				040346A91E756636004C2528 /* Frameworks */,
 				040346AA1E756636004C2528 /* Resources */,
-				C868AA22806FB57C5EB6E6BD /* [CP] Embed Pods Frameworks */,
-				2F3FF5A847DF2FFD1107B9A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -357,21 +323,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GAScrollViewTests/Pods-GAScrollViewTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2F3FF5A847DF2FFD1107B9A6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GAScrollView/Pods-GAScrollView-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		388D3798BEDB17BDD547E2CC /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -402,21 +353,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		A7D780E73F3D4D72D9DD8747 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		AEDC01827F56155417EB78E5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -430,21 +366,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C868AA22806FB57C5EB6E6BD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GAScrollView/Pods-GAScrollView-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D561A70C42973CCE9F9F7614 /* [CP] Embed Pods Frameworks */ = {
@@ -636,7 +557,6 @@
 		};
 		040346DA1E756636004C2528 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B574DF58C784A47EE1896C64 /* Pods-GAScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WSUBE85MHP;
@@ -650,7 +570,6 @@
 		};
 		040346DB1E756636004C2528 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB624BF7CBA700499D63F620 /* Pods-GAScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WSUBE85MHP;
@@ -664,7 +583,6 @@
 		};
 		040346DD1E756636004C2528 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBC3FE2711448EB1B37AA82C /* Pods-GAScrollViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GAScrollViewTests/Info.plist;
@@ -677,7 +595,6 @@
 		};
 		040346DE1E756636004C2528 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30E5A803E139A092720B4A3C /* Pods-GAScrollViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GAScrollViewTests/Info.plist;
@@ -690,7 +607,6 @@
 		};
 		040346E01E756636004C2528 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F181FAFB8F129E1F2AE245B9 /* Pods-GAScrollViewUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GAScrollViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -702,7 +618,6 @@
 		};
 		040346E11E756636004C2528 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA2C6D99AE5C5FDABE02D11E /* Pods-GAScrollViewUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GAScrollViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
