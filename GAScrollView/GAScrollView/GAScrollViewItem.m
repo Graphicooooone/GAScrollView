@@ -37,7 +37,6 @@
 #undef GA_HAS_AFNETWORKING
 #endif
 
-
 #pragma mark - 
 ///< Double processor cache (Memory & Disk)
 @interface _CacheHandle : NSObject
@@ -61,7 +60,7 @@ static NSMapTable* _mapTable;
 + (UIImage *)getImage:(NSString *)url{
     if (!url || [url isEqual:(id)kCFNull]) return nil;
     
-    NSString* file = [[self tmpPath] stringByAppendingPathComponent:[NSString stringWithFormat:@"%ld",url.hash]];
+    NSString* file = [[self tmpPath] stringByAppendingPathComponent:[NSString stringWithFormat:@"%ld",(unsigned long)url.hash]];
     if ([_mapTable objectForKey:url]) {//Memory
         return [_mapTable objectForKey:url];
     }else if ([[NSFileManager defaultManager] fileExistsAtPath:file]){//Disk
@@ -80,7 +79,7 @@ static NSMapTable* _mapTable;
     if (!data || [data isEqual:(id)kCFNull])  return NO;
     if (!url  || [url isEqual:(id)kCFNull]) return NO;
     
-    NSString* file = [[self tmpPath] stringByAppendingPathComponent:[NSString stringWithFormat:@"%ld",url.hash]];
+    NSString* file = [[self tmpPath] stringByAppendingPathComponent:[NSString stringWithFormat:@"%ld",(unsigned long)url.hash]];
     
     [_mapTable setObject:[UIImage imageWithData:data scale:[UIScreen mainScreen].scale] forKey:url];//Memory
     

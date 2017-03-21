@@ -44,7 +44,7 @@
     NSLog(@"%@ from:%lu,to:%lu",NSStringFromSelector(_cmd),(unsigned long)from,(unsigned long)to);
 }
 - (void)scrollView:(GAScrollView *)scrollView currentClickIndex:(NSUInteger)index{
-    NSLog(@"%@,%lu",NSStringFromSelector(_cmd),index);
+    NSLog(@"%@,%lu",NSStringFromSelector(_cmd),(unsigned long)index);
 }
 
 
