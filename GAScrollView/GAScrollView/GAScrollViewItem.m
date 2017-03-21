@@ -241,7 +241,7 @@ static NSMapTable* _mapTable;
 #pragma mark - 
 
 #pragma clang diagnostic push
-#pragma clang diagnostic ignored"-Wdeprecated-declarations"
+#pragma clang diagnostic ignored"-Wundeclared-selector"
 - (void)_usingYYWebImage:(UIImageView* )imageView model:(_GAScrollViewItemModel* )model{
     [self _performSelector:@selector(setImageWithURL:placeholder:) target:imageView withObjects:[NSURL URLWithString:model.path],_placeholderImage,nil];
 }

@@ -15,9 +15,9 @@
 		040346BF1E756636004C2528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040346BD1E756636004C2528 /* LaunchScreen.storyboard */; };
 		040346CA1E756636004C2528 /* GAScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040346C91E756636004C2528 /* GAScrollViewTests.m */; };
 		040346D51E756636004C2528 /* GAScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040346D41E756636004C2528 /* GAScrollViewUITests.m */; };
-		040346E51E7568CC004C2528 /* GAScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040346E41E7568CC004C2528 /* GAScrollView.m */; };
-		040346E81E7568F1004C2528 /* GAScrollViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 040346E71E7568F1004C2528 /* GAScrollViewItem.m */; };
-		040346EB1E756907004C2528 /* GAScrollViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 040346EA1E756907004C2528 /* GAScrollViewStyle.m */; };
+		04FB581A1E80D0850037ECAC /* GAScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB58151E80D0850037ECAC /* GAScrollView.m */; };
+		04FB581B1E80D0850037ECAC /* GAScrollViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB58171E80D0850037ECAC /* GAScrollViewItem.m */; };
+		04FB581C1E80D0850037ECAC /* GAScrollViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB58191E80D0850037ECAC /* GAScrollViewStyle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +54,12 @@
 		040346D01E756636004C2528 /* GAScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GAScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040346D41E756636004C2528 /* GAScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAScrollViewUITests.m; sourceTree = "<group>"; };
 		040346D61E756636004C2528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		040346E31E7568CC004C2528 /* GAScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAScrollView.h; sourceTree = "<group>"; };
-		040346E41E7568CC004C2528 /* GAScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAScrollView.m; sourceTree = "<group>"; };
-		040346E61E7568F1004C2528 /* GAScrollViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAScrollViewItem.h; sourceTree = "<group>"; };
-		040346E71E7568F1004C2528 /* GAScrollViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAScrollViewItem.m; sourceTree = "<group>"; };
-		040346E91E756907004C2528 /* GAScrollViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAScrollViewStyle.h; sourceTree = "<group>"; };
-		040346EA1E756907004C2528 /* GAScrollViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAScrollViewStyle.m; sourceTree = "<group>"; };
+		04FB58141E80D0850037ECAC /* GAScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAScrollView.h; sourceTree = "<group>"; };
+		04FB58151E80D0850037ECAC /* GAScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAScrollView.m; sourceTree = "<group>"; };
+		04FB58161E80D0850037ECAC /* GAScrollViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAScrollViewItem.h; sourceTree = "<group>"; };
+		04FB58171E80D0850037ECAC /* GAScrollViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAScrollViewItem.m; sourceTree = "<group>"; };
+		04FB58181E80D0850037ECAC /* GAScrollViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAScrollViewStyle.h; sourceTree = "<group>"; };
+		04FB58191E80D0850037ECAC /* GAScrollViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAScrollViewStyle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,7 @@
 				040346B31E756636004C2528 /* AppDelegate.m */,
 				040346B51E756636004C2528 /* ViewController.h */,
 				040346B61E756636004C2528 /* ViewController.m */,
-				040346E21E7568B4004C2528 /* GAScrollView */,
+				04FB58131E80D0850037ECAC /* GAScrollView */,
 				040346B81E756636004C2528 /* Main.storyboard */,
 				040346BB1E756636004C2528 /* Assets.xcassets */,
 				040346BD1E756636004C2528 /* LaunchScreen.storyboard */,
@@ -151,18 +151,17 @@
 			path = GAScrollViewUITests;
 			sourceTree = "<group>";
 		};
-		040346E21E7568B4004C2528 /* GAScrollView */ = {
+		04FB58131E80D0850037ECAC /* GAScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				040346E31E7568CC004C2528 /* GAScrollView.h */,
-				040346E41E7568CC004C2528 /* GAScrollView.m */,
-				040346E61E7568F1004C2528 /* GAScrollViewItem.h */,
-				040346E71E7568F1004C2528 /* GAScrollViewItem.m */,
-				040346E91E756907004C2528 /* GAScrollViewStyle.h */,
-				040346EA1E756907004C2528 /* GAScrollViewStyle.m */,
+				04FB58141E80D0850037ECAC /* GAScrollView.h */,
+				04FB58151E80D0850037ECAC /* GAScrollView.m */,
+				04FB58161E80D0850037ECAC /* GAScrollViewItem.h */,
+				04FB58171E80D0850037ECAC /* GAScrollViewItem.m */,
+				04FB58181E80D0850037ECAC /* GAScrollViewStyle.h */,
+				04FB58191E80D0850037ECAC /* GAScrollViewStyle.m */,
 			);
-			name = GAScrollView;
-			path = GAScrollView_Kit;
+			path = GAScrollView;
 			sourceTree = "<group>";
 		};
 		E8AF7628FBF928F8896BF739 /* Frameworks */ = {
@@ -408,9 +407,9 @@
 				040346B71E756636004C2528 /* ViewController.m in Sources */,
 				040346B41E756636004C2528 /* AppDelegate.m in Sources */,
 				040346B11E756636004C2528 /* main.m in Sources */,
-				040346EB1E756907004C2528 /* GAScrollViewStyle.m in Sources */,
-				040346E81E7568F1004C2528 /* GAScrollViewItem.m in Sources */,
-				040346E51E7568CC004C2528 /* GAScrollView.m in Sources */,
+				04FB581C1E80D0850037ECAC /* GAScrollViewStyle.m in Sources */,
+				04FB581B1E80D0850037ECAC /* GAScrollViewItem.m in Sources */,
+				04FB581A1E80D0850037ECAC /* GAScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
