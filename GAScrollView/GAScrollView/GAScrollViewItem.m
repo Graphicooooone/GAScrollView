@@ -164,7 +164,9 @@ static NSMapTable* _mapTable;
 #ifdef GA_HAS_YYIMAGE
                 [self _usingYYWebImage:_imgView model:model];
 #else
-                if(DEBUG) NSAssert(false, @" GAScrollView:You must have YYImage ");
+#ifdef DEBUG
+                NSAssert(false, @" GAScrollView:You must have YYImage ");
+#endif
                 [self _usingAutoScheme:_imgView model:model];
 #endif
                 break;
@@ -173,7 +175,9 @@ static NSMapTable* _mapTable;
 #ifdef GA_HAS_SDWEBIMAGE
                 [self _usingSDWebImage:_imgView model:model];
 #else
-                if(DEBUG) NSAssert(false, @" GAScrollView:You must have SDWebImage ");
+#ifdef DEBUG
+                NSAssert(false, @" GAScrollView:You must have SDWebImage ");
+#endif
                 [self _usingAutoScheme:_imgView model:model];
 #endif
                 break;
@@ -182,7 +186,9 @@ static NSMapTable* _mapTable;
 #ifdef GA_HAS_AFNETWORKING
                 [self _usingAFNetworking:_imgView model:model];
 #else
-                if(DEBUG) NSAssert(false, @" GAScrollView:You must have AFNetworking ");
+#ifdef DEBUG
+                NSAssert(false, @" GAScrollView:You must have AFNetworking ");
+#endif
                 [self _usingAutoScheme:_imgView model:model];
 #endif
                 break;
@@ -259,7 +265,9 @@ static NSMapTable* _mapTable;
     
     NSMethodSignature* signature = [[target class] instanceMethodSignatureForSelector:aSelector];
     if (!signature) {
-        NSAssert(!DEBUG, @" GAScrollView:You don't have included the framework of the method(***%@***) ",NSStringFromSelector(aSelector));
+#ifdef DEBUG
+        NSAssert(false, @" GAScrollView:You don't have included the framework of the method(***%@***) ",NSStringFromSelector(aSelector));
+#endif
     }else{
         NSInvocation* invo = [NSInvocation invocationWithMethodSignature:signature];
         invo.target = target;

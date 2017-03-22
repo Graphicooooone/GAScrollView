@@ -217,7 +217,9 @@
                     break;
                     
                 case UIControlContentHorizontalAlignmentFill:
-                    if (DEBUG) NSAssert(false, @" GAScrollView : Can't forUIControlContentHorizontalAlignmentFill ");
+#ifdef DEBUG
+    NSAssert(false, @" GAScrollView : Can't forUIControlContentHorizontalAlignmentFill ");
+#endif
                     _pageCtl.frame = (CGRect){{0,self.contentView.bounds.size.height - _config.titleHeight},{self.contentView.bounds.size.width,_config.titleHeight}};
                     break;
                     
@@ -450,7 +452,9 @@
     config.defaultColor = defaultColor ?: [UIColor whiteColor];
     config.selectedColor = selectedColor;
     if (config.pageAlignment == UIControlContentHorizontalAlignmentFill) {
-        if (DEBUG) NSAssert(false, @"GAScrollView : Cannot be designated as UIControlContentHorizontalAlignmentFill ");
+#ifdef DEBUG
+        NSAssert(false, @"GAScrollView : Cannot be designated as UIControlContentHorizontalAlignmentFill ");
+#endif
         config.pageAlignment = UIControlContentHorizontalAlignmentRight;
     }else{
         config.pageAlignment = pageAlignment;
